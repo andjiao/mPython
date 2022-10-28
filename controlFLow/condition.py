@@ -10,5 +10,5 @@ elif tempeture < 20:
     print("it's nice")
 else:
     print("it's cold")
-    
+
 print("Done")

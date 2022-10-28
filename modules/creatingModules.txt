@@ -1,0 +1,24 @@
+# module is a file that contains some python code
+# modules should contain higly related object fx. in a supermarrket, no cleaning supplies in the fruit section
+#these objects can be functions, classes, variables etc.
+
+# how to import
+
+ from nameOfModule/file(without py) and from sales we import(after writing import click ctr+space and 
+ you will see all the objects defined in the module )
+so if we have a file called sales.py containing functions called calc_shipping, the import will be:
+
+from sales import calc_shipping
+
+and then we can just call it like normal function, like this: calc_shipping()
+
+if you want to import mutliple objects from a module, you can seperate them using a comma 
+
+using asterix is bad coding bc you can several differents functions or variables and if you blindly import them
+into the currentl module. some of the objects may be overwrite some objects with the same name in the current module
+
+another way to import:
+
+import sales
+
+and then you can use dot-notation to acces it's members, which will look like this: sales.calc_shipping()

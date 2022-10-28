@@ -1,0 +1,7 @@
+classes are blueprint for creating new objects 
+objects are instances of classes
+
+fx we can have a class, called human and this class will defined all the attributes of humans 
+
+then we will create objects like john, mary etc 
+
